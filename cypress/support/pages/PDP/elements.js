@@ -1,0 +1,23 @@
+export const ELEMENTS = {
+    imageId: '#cartModal',
+    imageCSS: '.product-details .view-product',
+    imageAttribute: '[src="/get_product_picture/1"]',
+    quantityId: '#quantity',
+    quantityCSS: '.product-information span input[name="quantity"]',
+    quantityAttribute: '[src="/static/images/product-details/rating.png"]+span>[name=quantity]',
+    cartId: '', //O botão "Add to cart" não possui ID para ser inspecionado.
+    cartCSS: '.product-information span .cart',
+    cartAttribute: '[src="/static/images/product-details/rating.png"]+span>[type=button]',
+    yourNameId: '#name',
+    yourNameCSS: '.shop-details-tab .col-sm-12 input#name',
+    yourNameAttribute: '[id="review-form"]>span>[type="text"]',
+    emailAdressId: '#email',
+    emailAdressCSS: '.shop-details-tab .col-sm-12 input#email', 
+    emailAdressAttribute: '[id="review-form"]>span>[type="email"]',
+    reviewId: '#review',
+    reviewCSS: '.shop-details-tab .col-sm-12 textarea#review',
+    reviewAttribute: '[id="review-form"]>textarea', 
+    submitId: '#button-review',
+    submitCSS: '.shop-details-tab .col-sm-12 .pull-right',
+    submitAttribute: '[class="btn btn-default pull-right"]',
+}
