@@ -1,5 +1,5 @@
 export const ELEMENTS = {
-    //Exercício 03
+    //Exercício 05
     page: "https://automationexercise.com/",
     loginPage: '.shop-menu > .nav > :nth-child(4) > a',
     emailInput: '[data-qa="login-email"]',
