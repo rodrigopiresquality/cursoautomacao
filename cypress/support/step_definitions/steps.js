@@ -1,5 +1,7 @@
 import {Before, Given, When, And, Then} from "cypress-cucumber-preprocessor/steps"
 import signup from "../pages/signup"
+import signupmultilanguage from "../pages/signupmultilanguage"
+
 
 Given("I access google page", () => {
     cy.visit("https://www.google.com.br/")
@@ -55,4 +57,25 @@ Then("devo digitar os dados de cadastro", () => {
     signup.formCity()
     signup.formZipcode()
     signup.formMobileNumber()
+})
+
+Then("devo digitar os dados de cadastro de acordo com o País de origem", () => {
+    cy.get(':nth-child(1) > b').should('have.text', "Enter Account Information")
+    signupmultilanguage.radioMr()
+    signupmultilanguage.formAccPassword()
+    signupmultilanguage.dayOfBirth()
+    signupmultilanguage.monthOfBirth()
+    signupmultilanguage.yearOfBirth()
+    signupmultilanguage.checkNews()
+    signupmultilanguage.checkOffers()
+    signupmultilanguage.formFirstName()
+    signupmultilanguage.formLastName()
+    signupmultilanguage.formCompany()
+    signupmultilanguage.formAdress()
+    signupmultilanguage.formAdress2()
+    signupmultilanguage.country()
+    signupmultilanguage.formState()
+    signupmultilanguage.formCity()
+    signupmultilanguage.formZipcode()
+    signupmultilanguage.formMobileNumber()
 })

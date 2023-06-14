@@ -1,0 +1,27 @@
+export const ELEMENTS = {
+    //Exercício 03
+    page: "https://automationexercise.com/",
+    loginPage: '.shop-menu > .nav > :nth-child(4) > a',
+    emailInput: '[data-qa="login-email"]',
+    emailSuInput: '[data-qa="signup-email"]',
+    passwordInput: '[data-qa="login-password"]',
+    nameInput: '[data-qa="signup-name"]',
+    iconButton: '[data-qa="login-button"]',
+    mr: '#id_gender1',
+    password: '[data-qa="password"]',
+    day: '[data-qa="days"]',
+    month: '[data-qa="months"]',
+    year: '[data-qa="years"]',
+    news: '#newsletter',
+    offers: '#optin',
+    firstName: '[data-qa="first_name"]',
+    lastName: '[data-qa="last_name"]',
+    company: '[data-qa="company"]',
+    adress: '[data-qa="address"]',
+    adress2: '[data-qa="address2"]',
+    country: '[data-qa="country"]',
+    state: '[data-qa="state"]',
+    city: '[data-qa="city"]',
+    zipcode: '[data-qa="zipcode"]',
+    mobileNumber: '[data-qa="mobile_number"]'
+}
